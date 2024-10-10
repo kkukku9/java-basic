@@ -1,12 +1,12 @@
 package class1.ex;
 
+
 public class ProductOrderMain {
 
     public static void main(String[] args) {
         ProductOrder product1 = new ProductOrder();
         ProductOrder product2 = new ProductOrder();
         ProductOrder product3 = new ProductOrder();
-
         ProductOrder[] productOrders = new ProductOrder[] {product1, product2, product3};
 
         productOrders[0].productName = "두부";
