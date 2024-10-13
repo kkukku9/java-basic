@@ -11,8 +11,8 @@ public class AccessOuterMain {
         data.publicMethod();
 
         //다른 패키지 default 호출 불가
-        data.defaultField = 2;
-        data.defaultMethod();
+        //data.defaultField = 2;
+        //data.defaultMethod();
 
         //private 호출 불가
         //data.privateField = 3;
